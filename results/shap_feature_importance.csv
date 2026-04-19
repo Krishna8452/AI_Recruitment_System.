@@ -1,0 +1,21 @@
+feature,display_name,mean_abs_shap
+exp_x_degree,Experience × Education,1.46735
+gpa_x_skills,GPA × Skills,0.81744
+text_years_experience,Experience (Mentioned in CV),0.51119
+gpa,GPA Score,0.46603
+years_experience,Years of Experience,0.3786
+degree_encoded,Education Level,0.35255
+resume_word_count,CV Completeness (Word Count),0.16002
+text_tech_skill_count,Technical Skills (Text),0.15082
+prev_companies,Previous Employers,0.11572
+skill_python,Python Skill,0.088
+skill_deep_learning,Deep Learning Skill,0.05651
+skill_leadership,Leadership Skill,0.04449
+num_skills,Number of Skills,0.0403
+skill_machine_learning,Machine Learning Skill,0.02297
+skill_data_analysis,Data Analysis Skill,0.02129
+text_soft_skill_count,Soft Skills (Text),0.01674
+skill_sql,SQL Skill,0.01534
+skill_project_management,Project Management,0.01015
+skill_communication,Communication Skill,0.00857
+skill_java,Java Skill,0.00671

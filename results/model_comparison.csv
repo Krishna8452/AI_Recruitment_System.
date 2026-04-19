@@ -1,0 +1,6 @@
+Model,precision,recall,f1,roc_auc,cv_f1_mean,cv_f1_std
+Logistic Regression,0.9865,0.8538,0.9154,0.9566,0.9168,0.0133
+Decision Tree,0.9613,0.8713,0.9141,0.8508,0.9167,0.0187
+Random Forest,0.9573,0.9181,0.9373,0.9333,0.9416,0.0117
+Gradient Boosting,0.9415,0.9415,0.9415,0.9232,0.9479,0.011
+Rule-Based Baseline,0.0,0.0,0.0,N/A,N/A,N/A

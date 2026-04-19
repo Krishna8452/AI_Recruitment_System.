@@ -1,0 +1,145 @@
+{
+  "gender": {
+    "Female": {
+      "n": 467,
+      "selection_rate": 0.8458,
+      "true_rate": 0.8415,
+      "precision": 0.9873,
+      "recall": 0.9924,
+      "f1": 0.9898
+    },
+    "Male": {
+      "n": 488,
+      "selection_rate": 0.8668,
+      "true_rate": 0.8689,
+      "precision": 0.9882,
+      "recall": 0.9858,
+      "f1": 0.987
+    },
+    "Non-binary": {
+      "n": 45,
+      "selection_rate": 0.8,
+      "true_rate": 0.8222,
+      "precision": 1.0,
+      "recall": 0.973,
+      "f1": 0.9863
+    }
+  },
+  "ethnicity": {
+    "Asian": {
+      "n": 190,
+      "selection_rate": 0.8789,
+      "true_rate": 0.8947,
+      "precision": 0.988,
+      "recall": 0.9706,
+      "f1": 0.9792
+    },
+    "Black": {
+      "n": 139,
+      "selection_rate": 0.8777,
+      "true_rate": 0.8561,
+      "precision": 0.9754,
+      "recall": 1.0,
+      "f1": 0.9876
+    },
+    "Hispanic": {
+      "n": 65,
+      "selection_rate": 0.8308,
+      "true_rate": 0.8308,
+      "precision": 0.9815,
+      "recall": 0.9815,
+      "f1": 0.9815
+    },
+    "Mixed": {
+      "n": 42,
+      "selection_rate": 0.8571,
+      "true_rate": 0.8571,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "Other": {
+      "n": 23,
+      "selection_rate": 0.8696,
+      "true_rate": 0.8696,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "White": {
+      "n": 541,
+      "selection_rate": 0.841,
+      "true_rate": 0.841,
+      "precision": 0.9912,
+      "recall": 0.9912,
+      "f1": 0.9912
+    }
+  },
+  "age_group": {
+    "22\u201330": {
+      "n": 253,
+      "selection_rate": 0.8419,
+      "true_rate": 0.8458,
+      "precision": 0.9859,
+      "recall": 0.9813,
+      "f1": 0.9836
+    },
+    "31\u201340": {
+      "n": 290,
+      "selection_rate": 0.831,
+      "true_rate": 0.8276,
+      "precision": 0.9834,
+      "recall": 0.9875,
+      "f1": 0.9854
+    },
+    "41\u201350": {
+      "n": 287,
+      "selection_rate": 0.8537,
+      "true_rate": 0.8537,
+      "precision": 0.9878,
+      "recall": 0.9878,
+      "f1": 0.9878
+    },
+    "51\u201360": {
+      "n": 170,
+      "selection_rate": 0.9118,
+      "true_rate": 0.9118,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  },
+  "fairness_summary": {
+    "gender": {
+      "demographic_parity_difference": 0.0668,
+      "disparate_impact_ratio": 0.9229,
+      "equal_opportunity_difference": 0.0194,
+      "selection_rates": {
+        "Female": 0.8458,
+        "Male": 0.8668,
+        "Non-binary": 0.8
+      },
+      "dpd_acceptable": true,
+      "dir_acceptable": true,
+      "highest_rate_group": "Male",
+      "lowest_rate_group": "Non-binary"
+    },
+    "ethnicity": {
+      "demographic_parity_difference": 0.0481,
+      "disparate_impact_ratio": 0.9453,
+      "equal_opportunity_difference": 0.0294,
+      "selection_rates": {
+        "Asian": 0.8789,
+        "Black": 0.8777,
+        "Hispanic": 0.8308,
+        "Mixed": 0.8571,
+        "Other": 0.8696,
+        "White": 0.841
+      },
+      "dpd_acceptable": true,
+      "dir_acceptable": true,
+      "highest_rate_group": "Asian",
+      "lowest_rate_group": "Hispanic"
+    }
+  }
+}

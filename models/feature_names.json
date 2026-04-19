@@ -1,0 +1,22 @@
+[
+  "degree_encoded",
+  "gpa",
+  "years_experience",
+  "num_skills",
+  "prev_companies",
+  "text_tech_skill_count",
+  "text_soft_skill_count",
+  "text_years_experience",
+  "resume_word_count",
+  "skill_python",
+  "skill_machine_learning",
+  "skill_sql",
+  "skill_java",
+  "skill_deep_learning",
+  "skill_communication",
+  "skill_leadership",
+  "skill_project_management",
+  "skill_data_analysis",
+  "exp_x_degree",
+  "gpa_x_skills"
+]
